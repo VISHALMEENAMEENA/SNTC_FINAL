@@ -35,7 +35,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/aditya-sahu", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/aditya_sahu.jpg"
+      image: "/assets/images/aditya_sahu.jpg"
     },
     {
       name: "Aritra Boral",
@@ -46,7 +46,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/aritra-boral", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/aritra_boral.jpg"
+      image: "/assets/images/aritra_boral.jpg"
     },
     {
       name: "Himadri Singh",
@@ -57,7 +57,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/himadri-singh", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/himadri_singh.jpg"
+      image: "/assets/images/himadri_singh.jpg"
     },
     {
       name: "Vinamra Garg",
@@ -68,7 +68,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/vinamra-garg", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/vinamra_garg.jpg"
+      image: "/assets/images/vinamra_garg.jpg"
     },
     {
       name: "Anhad Thakral",
@@ -79,7 +79,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/anhad-thakral", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/anhad_thakral.jpg"
+      image: "/assets/images/anhad_thakral.jpg"
     },
     {
       name: "Shubham Padhi",
@@ -90,7 +90,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/shubham-padhi", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/shubham_padhi.jpg"
+      image: "/assets/images/shubham_padhi.jpg"
     },
     {
       name: "Diksha Sharma", 
@@ -101,7 +101,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/diksha-sharma", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/diksha_sharma.jpg"
+      image: "/assets/images/diksha_sharma.jpg"
     },
     {
       name: "Dhruv Verma",
@@ -112,7 +112,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/dhruv-verma", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/dhruv_verma.jpg"
+      image: "/assets/images/dhruv_verma.jpg"
     },
     {
       name: "Rohith Pranav",
@@ -123,7 +123,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/rohith-pranav", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/rohith_pranav.jpg"
+      image: "/assets/images/rohith_pranav.jpg"
     },
     {
       name: "Tharun Chanda",
@@ -134,7 +134,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/tharun-chanda", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/tharun_chanda.jpg"
+      image: "/assets/images/tharun_chanda.jpg"
     },
     {
       name: "Kusum Agrawal",
@@ -145,7 +145,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/kusum-agrawal", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/kusum_agrawal.jpg"
+      image: "/assets/images/kusum_agrawal.jpg"
     },
     {
       name: "Manan",
@@ -156,7 +156,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/manan", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/manan.jpg"
+      image: "/assets/images/manan.jpg"
     },
     {
       name: "Yogesh",
@@ -167,7 +167,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/yogesh", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/yogesh.jpg"
+      image: "/assets/images/yogesh.jpg"
     },
     {
       name: "Ayush Sawarn",
@@ -178,7 +178,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/ayush-sawarn", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/ayush_sawarn.jpg"
+      image: "/assets/images/ayush_sawarn.jpg"
     },
     {
       name: "R C Manish Reddy",
@@ -189,7 +189,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/rc-manish-reddy", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/rc_manish_reddy.jpg"
+      image: "/assets/images/rc_manish_reddy.jpg"
     },
     {
       name: "Mayank Goel",
@@ -200,7 +200,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/mayank-goel", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/mayank_goel.jpg"
+      image: "/assets/images/mayank_goel.jpg"
     },
     {
       name: "Piyush Kumar",
@@ -211,7 +211,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/piyush-kumar", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/piyush_kumar.jpg"
+      image: "/assets/images/piyush_kumar.jpg"
     }
   ];
 

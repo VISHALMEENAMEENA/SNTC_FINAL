@@ -528,9 +528,7 @@ const SysAdmins = () => {
                 <a href="https://sntc.iitmandi.co.in" target="_blank" rel="noopener noreferrer">
                   SNTC Official Website
                 </a>
-                <a href="https://sntc.iitmandi.co.in/SnTC_core.html" target="_blank" rel="noopener noreferrer">
-                  SNTC Core Team
-                </a>
+                
                 <a href="https://sntc.iitmandi.co.in/projects.html" target="_blank" rel="noopener noreferrer">
                   SNTC Projects
                 </a>

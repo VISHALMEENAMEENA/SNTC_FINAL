@@ -24,7 +24,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/born-engineer73/",
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/vaibhav_kesharwani.jpg"
+      image: "/assets/images/team/vaibhav.jpeg"
     },
     {
       name: "Aditya Sahu",
@@ -35,7 +35,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/aditya-sahu", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/aditya_sahu.jpg"
+      image: "/assets/images/Aditya.jpeg"
     },
     {
       name: "Aritra Boral",
@@ -46,7 +46,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/aritra-boral", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/aritra_boral.jpg"
+      image: "/assets/images/Aritra.jpeg"
     },
     {
       name: "Himadri Singh",

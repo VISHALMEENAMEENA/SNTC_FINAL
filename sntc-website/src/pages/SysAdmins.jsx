@@ -2,17 +2,6 @@ import React from 'react';
 import './SysAdmins.css';
 
 const SysAdmins = () => {
-  // SNTC Faculty Advisor
-  const facultyAdvisor = {
-    name: "Dr. Narendra Kumar Dhar",
-    role: "Society Advisor - SNTC",
-    department: "Computer Science & Engineering",
-    email: "nkdhar@iitmandi.ac.in",
-    phone: "+91-1905-267-XXX",
-    office: "A-Block, Room No. XXX",
-    image: "/assets/images/faculty/nk_dhar.jpg"
-  };
-
   // SNTC Core Team Members (Based on actual data from SNTC website)
   const sntcCoreTeam = [
     {
@@ -24,7 +13,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/born-engineer73/",
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/team/vaibhav.jpeg"
+      image: "src/assets/images/vaibhav.jpeg"
     },
     {
       name: "Aditya Sahu",
@@ -35,7 +24,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/aditya-sahu", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/Aditya.jpeg"
+      image: "src/assets/images/aditya.jpeg"
     },
     {
       name: "Aritra Boral",
@@ -46,7 +35,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/aritra-boral", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/Aritra.jpeg"
+      image: "src/assets/images/aritra.jpeg"
     },
     {
       name: "Himadri Singh",
@@ -57,7 +46,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/himadri-singh", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/himadri_singh.jpg"
+      image: "src/assets/images/himadri.jpeg"
     },
     {
       name: "Vinamra Garg",
@@ -68,7 +57,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/vinamra-garg", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/vinamra_garg.jpg"
+      image: "src/assets/images/vinamra.jpeg"
     },
     {
       name: "Anhad Thakral",
@@ -79,7 +68,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/anhad-thakral", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/anhad_thakral.jpg"
+      image: "src/assets/images/anhad.jpeg"
     },
     {
       name: "Shubham Padhi",
@@ -90,7 +79,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/shubham-padhi", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/shubham_padhi.jpg"
+      image: "src/assets/images/shubhum.png"
     },
     {
       name: "Diksha Sharma", 
@@ -101,7 +90,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/diksha-sharma", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/diksha_sharma.jpg"
+      image: "src/assets/images/diksha.jpeg"
     },
     {
       name: "Dhruv Verma",
@@ -112,7 +101,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/dhruv-verma", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/dhruv_verma.jpg"
+      image: "src/assets/images/dhruv.jpeg"
     },
     {
       name: "Rohith Pranav",
@@ -123,7 +112,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/rohith-pranav", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/rohith_pranav.jpg"
+      image: "src/assets/images/rohith.jpeg"
     },
     {
       name: "Tharun Chanda",
@@ -134,7 +123,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/tharun-chanda", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/tharun_chanda.jpg"
+      image: "src/assets/images/tharun.jpeg"
     },
     {
       name: "Kusum Agrawal",
@@ -145,7 +134,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/kusum-agrawal", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/kusum_agrawal.jpg"
+      image: "src/assets/images/kusum.jpeg"
     },
     {
       name: "Manan",
@@ -156,7 +145,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/manan", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/manan.jpg"
+      image: "src/assets/images/manan.jpeg"
     },
     {
       name: "Yogesh",
@@ -167,7 +156,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/yogesh", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/yogesh.jpg"
+      image: "src/assets/images/yogesh.jpeg"
     },
     {
       name: "Ayush Sawarn",
@@ -178,7 +167,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/ayush-sawarn", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/ayush_sawarn.jpg"
+      image: "src/assets/images/ayush.jpeg"
     },
     {
       name: "R C Manish Reddy",
@@ -189,7 +178,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/rc-manish-reddy", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/rc_manish_reddy.jpg"
+      image: "src/assets/images/RCmanish.jpeg"
     },
     {
       name: "Mayank Goel",
@@ -200,7 +189,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/mayank-goel", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/mayank_goel.jpg"
+      image: "src/assets/images/mayank.jpeg"
     },
     {
       name: "Piyush Kumar",
@@ -211,59 +200,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://linkedin.com/in/piyush-kumar", // Add actual LinkedIn
       instagram: "https://instagram.com/username", // Add actual Instagram
-      image: "/assets/images/piyush_kumar.jpg"
-    }
-  ];
-
-  // SNTC Technical Clubs
-  const sntcClubs = [
-    {
-      name: "Programming Club (KamandPrompt)",
-      description: "Dedicated to programming activities, competitions, and workshops to enhance coding skills",
-      website: "http://pc.iitmandi.co.in/",
-      icon: "💻"
-    },
-    {
-      name: "Robotronics Club", 
-      description: "Works in robotics and electronics, providing workspace, tools, and expertise for building robots",
-      website: "http://robotronics.iitmandi.co.in/",
-      icon: "🤖"
-    },
-    {
-      name: "Entrepreneurship Cell (E-Cell)",
-      description: "Focused on business aspects and entrepreneurship, conducting various business-related events",
-      website: "https://ecell.iitmandi.co.in/",
-      icon: "💼"
-    },
-    {
-      name: "Yantrik Club",
-      description: "Mechanical engineering club focusing on green and effective energy methods",
-      website: "https://yantrik.iitmandi.co.in",
-      icon: "⚙️"
-    },
-    {
-      name: "Nirmaan Club",
-      description: "Civil Engineering club organizing events, workshops, and projects related to construction",
-      website: "https://www.facebook.com/groups/802179339895110/",
-      icon: "🏗️"
-    },
-    {
-      name: "Space Technology and Astronomy Cell (STAC)",
-      description: "Astronomy and space technology club with telescopes and star-gazing sessions",
-      website: "http://stac.iitmandi.co.in/",
-      icon: "🚀"
-    },
-    {
-      name: "Kamand Bioengineering Group (KBG)",
-      description: "Focuses on computational biology, genetics, neuroscience, and biotechnology",
-      website: "https://www.instagram.com/kbg_iitmandi/",
-      icon: "🧬"
-    },
-    {
-      name: "Society of Automotive Engineers (SAE)",
-      description: "Automotive engineering team working on gears, suspensions, engines, and brakes",
-      website: "https://clubsae.iitmandi.co.in/",
-      icon: "🚗"
+      image: "src/assets/images/piyush.jpeg"
     }
   ];
 
@@ -271,10 +208,6 @@ const SysAdmins = () => {
     {
       number: "8+",
       label: "Technical Clubs"
-    },
-    {
-      number: "18",
-      label: "Core Members"
     },
     {
       number: "500+",
@@ -286,28 +219,6 @@ const SysAdmins = () => {
     }
   ];
 
-  // SNTC Contact Information
-  const sntcContacts = [
-    {
-      title: "SNTC General Queries",
-      email: "sntc@iitmandi.ac.in",
-      phone: "+91-1905-267-XXX",
-      office: "Student Activity Center"
-    },
-    {
-      title: "Technical Secretary",
-      email: "technical_secretary@students.iitmandi.ac.in",
-      phone: "+91-1905-267-XXX",
-      office: "SNTC Office"
-    },
-    {
-      title: "Event Coordination",
-      email: "events@sntc.iitmandi.co.in", 
-      phone: "+91-1905-267-XXX",
-      office: "SNTC Office"
-    }
-  ];
-
   return (
     <div className="sysadmins-container">
       {/* Hero Section */}
@@ -315,7 +226,7 @@ const SysAdmins = () => {
         <div className="hero-content">
           <h1 className="hero-title">Science & Technology Council</h1>
           <p className="hero-subtitle">
-            The technical society of IIT Mandi fostering innovation, learning, and technical excellence
+            Meet the dedicated team behind SNTC IIT Mandi's technical excellence
           </p>
           <div className="hero-stats">
             {stats.map((stat, index) => (
@@ -339,95 +250,14 @@ const SysAdmins = () => {
             <div className="terminal-body">
               <div className="terminal-line">
                 <span className="prompt">$</span>
-                <span className="command">systemctl status sntc-clubs</span>
+                <span className="command">systemctl status sntc-team</span>
               </div>
               <div className="terminal-output">
-                <span className="status-active">● 8 Technical Clubs: Active (running)</span>
+                <span className="status-active">● SNTC Core Team: Active (running)</span>
               </div>
               <div className="terminal-line">
                 <span className="prompt">$</span>
-                <span className="command typing">ls -la /var/sntc/innovation</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* About SNTC */}
-      <section className="about-sysadmins">
-        <div className="container">
-          <h2 className="section-title">About SNTC</h2>
-          <div className="about-grid">
-            <div className="about-text">
-              <p>
-                The Science and Technology Council (SNTC) is the technical society of IIT Mandi, 
-                consisting of technical clubs for programming, bioengineering, automotive engineering, 
-                robotics, astronomy, mechanics, civil engineering and entrepreneurship.
-              </p>
-              <p>
-                One unique feature of the Institute's Technical Society is that all clubs support 
-                open participation - students are free to join any club at any point and dedicated 
-                students are rewarded accordingly. Members enthusiastically represent the college 
-                in national events and have brought several laurels for the institute.
-              </p>
-              <div className="about-highlights">
-                <div className="highlight-item">
-                  <span className="highlight-icon">🏆</span>
-                  <span>Inter-IIT Tech Meet</span>
-                </div>
-                <div className="highlight-item">
-                  <span className="highlight-icon">🚀</span>
-                  <span>Open Participation</span>
-                </div>
-                <div className="highlight-item">
-                  <span className="highlight-icon">💡</span>
-                  <span>Innovation & Research</span>
-                </div>
-              </div>
-            </div>
-            <div className="about-visual">
-              <div className="server-rack">
-                <div className="server" style={{animationDelay: '0s'}}></div>
-                <div className="server" style={{animationDelay: '0.5s'}}></div>
-                <div className="server" style={{animationDelay: '1s'}}></div>
-                <div className="server" style={{animationDelay: '1.5s'}}></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Faculty Advisor */}
-      <section className="faculty-section">
-        <div className="container">
-          <h2 className="section-title">Faculty Advisor</h2>
-          <div className="faculty-single">
-            <div className="faculty-card">
-              <div className="faculty-avatar">
-                {facultyAdvisor.image ? (
-                  <img src={facultyAdvisor.image} alt={facultyAdvisor.name} className="faculty-image" />
-                ) : (
-                  <div className="avatar-placeholder">
-                    {facultyAdvisor.name.split(' ').map(n => n[0]).join('')}
-                  </div>
-                )}
-              </div>
-              <h3 className="faculty-name">{facultyAdvisor.name}</h3>
-              <p className="faculty-role">{facultyAdvisor.role}</p>
-              <p className="faculty-dept">{facultyAdvisor.department}</p>
-              <div className="faculty-contact">
-                <div className="contact-item">
-                  <span className="contact-icon">📧</span>
-                  <span>{facultyAdvisor.email}</span>
-                </div>
-                <div className="contact-item">
-                  <span className="contact-icon">📞</span>
-                  <span>{facultyAdvisor.phone}</span>
-                </div>
-                <div className="contact-item">
-                  <span className="contact-icon">🏢</span>
-                  <span>{facultyAdvisor.office}</span>
-                </div>
+                <span className="command typing">ls -la /var/sntc/team</span>
               </div>
             </div>
           </div>
@@ -458,22 +288,49 @@ const SysAdmins = () => {
                     <span className="contact-icon">📧</span>
                     <span>{member.email}</span>
                   </div>
-                  <div className="contact-item">
-                    <span className="contact-icon">📞</span>
-                    <span>{member.phone}</span>
+                  
+                  {(member.linkedin || member.instagram) && (
+                  <div className="contact-links">
+                    {member.linkedin && (
+                      <a
+                        href={member.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="contact-item"
+                      >
+                        <svg
+                          className="contact-icon"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                        >
+                          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                      </a>
+                    )}
+
+                    {member.instagram && (
+                      <a
+                        href={member.instagram}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="contact-item"
+                      >
+                        <svg
+                          className="contact-icon"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                        >
+                          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                      </a>
+                    )}
                   </div>
-                  {member.linkedin && (
-                    <div className="contact-item">
-                      <span className="contact-icon">💼</span>
-                      <a href={member.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    </div>
-                  )}
-                  {member.instagram && (
-                    <div className="contact-item">
-                      <span className="contact-icon">📸</span>
-                      <a href={member.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
-                    </div>
-                  )}
+                )}
+
                 </div>
               </div>
             ))}
@@ -481,41 +338,16 @@ const SysAdmins = () => {
         </div>
       </section>
 
-
       {/* Contact Section */}
       <section className="contact-section">
         <div className="container">
           <div className="contact-card">
-            <h2>Contact SNTC</h2>
+            <h2>Contact SNTC Core Team</h2>
             <p>
-              Get in touch with the Science and Technology Council for technical support, 
+              Get in touch with the SNTC core team members for technical support, 
               event coordination, or general inquiries about our activities and clubs.
             </p>
             
-            <div className="sntc-contacts">
-              <div className="contact-methods">
-                {sntcContacts.map((contact, index) => (
-                  <div key={index} className="contact-method">
-                    <h4>{contact.title}</h4>
-                    <div className="contact-details">
-                      <div className="contact-item">
-                        <span className="contact-icon">📧</span>
-                        <span>{contact.email}</span>
-                      </div>
-                      <div className="contact-item">
-                        <span className="contact-icon">📞</span>
-                        <span>{contact.phone}</span>
-                      </div>
-                      <div className="contact-item">
-                        <span className="contact-icon">🏢</span>
-                        <span>{contact.office}</span>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
             <div className="contact-actions">
               <button className="primary-btn">Contact SNTC</button>
               <button className="secondary-btn">Join a Club</button>
@@ -525,10 +357,9 @@ const SysAdmins = () => {
             <div className="additional-links">
               <h3>Official Links</h3>
               <div className="links-grid">
-                <a href="https://sntc.iitmandi.co.in" target="_blank" rel="noopener noreferrer">
-                  SNTC Official Website
+                <a href="https://sntc.iitmandi.co.in/SnTC_core.html" target="_blank" rel="noopener noreferrer">
+                  SNTC Core Team
                 </a>
-                
                 <a href="https://sntc.iitmandi.co.in/projects.html" target="_blank" rel="noopener noreferrer">
                   SNTC Projects
                 </a>

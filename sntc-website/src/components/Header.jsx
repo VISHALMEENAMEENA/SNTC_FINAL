@@ -38,6 +38,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="logo" onClick={closeMenu}>
             <div className="logo-icon">
+              <img src="/logo_nobg.png" alt="SnTC Logo" />
               <span className="logo-text">SnTC</span>
               <span className="logo-subtitle">IIT Mandi</span>
             </div>

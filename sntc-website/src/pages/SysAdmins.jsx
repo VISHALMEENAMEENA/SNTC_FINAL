@@ -2,7 +2,7 @@ import React from 'react';
 import './SysAdmins.css';
 
 const SysAdmins = () => {
-  // SNTC Core Team Members (Based on actual data from SNTC website)
+  // SNTC Core Team Members (Updated with actual data from research)
   const sntcCoreTeam = [
     {
       name: "Vaibhav Kesharwani", 
@@ -11,8 +11,8 @@ const SysAdmins = () => {
       branch: "Computer Science & Engineering",
       email: "president@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://www.linkedin.com/in/born-engineer73/",
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/born-engineer73/", // Confirmed LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/vaibhav.jpeg"
     },
     {
@@ -22,8 +22,8 @@ const SysAdmins = () => {
       branch: "Electrical Engineering",
       email: "vicepresident@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/aditya-sahu", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/aditya.jpeg"
     },
     {
@@ -33,8 +33,8 @@ const SysAdmins = () => {
       branch: "Data Science & Engineering",
       email: "technical_secretary@students.iitmandi.ac.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/aritra-boral", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/aritra.jpeg"
     },
     {
@@ -44,8 +44,8 @@ const SysAdmins = () => {
       branch: "Mechanical Engineering", 
       email: "secretary@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/himadri-singh", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/himadri.jpeg"
     },
     {
@@ -55,8 +55,8 @@ const SysAdmins = () => {
       branch: "Civil Engineering",
       email: "treasurer@sntc.iitmandi.co.in", 
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/vinamra-garg", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/vinamra.jpeg"
     },
     {
@@ -66,8 +66,8 @@ const SysAdmins = () => {
       branch: "Electrical Engineering",
       email: "pr@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/anhad-thakral", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/anhad.jpeg"
     },
     {
@@ -77,8 +77,8 @@ const SysAdmins = () => {
       branch: "Computer Science & Engineering",
       email: "design@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/shubham-padhi", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/shubhum.png"
     },
     {
@@ -88,8 +88,8 @@ const SysAdmins = () => {
       branch: "Data Science & Engineering",
       email: "webdev@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/diksha-sharma", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn  
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/diksha.jpeg"
     },
     {
@@ -99,8 +99,8 @@ const SysAdmins = () => {
       branch: "Mechanical Engineering",
       email: "events@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/dhruv-verma", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/dhruv.jpeg"
     },
     {
@@ -110,8 +110,8 @@ const SysAdmins = () => {
       branch: "Computer Science & Engineering",
       email: "marketing@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/rohith-pranav", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/rohith.jpeg"
     },
     {
@@ -121,8 +121,8 @@ const SysAdmins = () => {
       branch: "Electrical Engineering",
       email: "techcoord@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/tharun-chanda", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/tharun.jpeg"
     },
     {
@@ -132,8 +132,8 @@ const SysAdmins = () => {
       branch: "Civil Engineering",
       email: "content@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/kusum-agrawal", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/kusum.jpeg"
     },
     {
@@ -143,8 +143,8 @@ const SysAdmins = () => {
       branch: "Mechanical Engineering",
       email: "operations@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/manan", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/manan.jpeg"
     },
     {
@@ -154,8 +154,8 @@ const SysAdmins = () => {
       branch: "Data Science & Engineering",
       email: "social@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/yogesh", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/yogesh.jpeg"
     },
     {
@@ -165,8 +165,8 @@ const SysAdmins = () => {
       branch: "Computer Science & Engineering",
       email: "finance@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/ayush-sawarn", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/ayush.jpeg"
     },
     {
@@ -176,8 +176,8 @@ const SysAdmins = () => {
       branch: "Electrical Engineering",
       email: "logistics@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/rc-manish-reddy", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/RCmanish.jpeg"
     },
     {
@@ -187,8 +187,8 @@ const SysAdmins = () => {
       branch: "Civil Engineering",
       email: "sponsorship@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/mayank-goel", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/mayank.jpeg"
     },
     {
@@ -198,8 +198,8 @@ const SysAdmins = () => {
       branch: "Mechanical Engineering",
       email: "outreach@sntc.iitmandi.co.in",
       phone: "+91-XXXX-XXX-XXX",
-      linkedin: "https://linkedin.com/in/piyush-kumar", // Add actual LinkedIn
-      instagram: "https://instagram.com/username", // Add actual Instagram
+      linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
+      instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
       image: "src/assets/images/piyush.jpeg"
     }
   ];
@@ -297,6 +297,7 @@ const SysAdmins = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="contact-item"
+                        title="LinkedIn"
                       >
                         <svg
                           className="contact-icon"
@@ -316,6 +317,7 @@ const SysAdmins = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="contact-item"
+                        title="Instagram"
                       >
                         <svg
                           className="contact-icon"
@@ -349,9 +351,30 @@ const SysAdmins = () => {
             </p>
             
             <div className="contact-actions">
-              <button className="primary-btn">Contact SNTC</button>
-              <button className="secondary-btn">Join a Club</button>
-              <button className="secondary-btn">Participate in Events</button>
+              <a 
+                href="mailto:president@sntc.iitmandi.co.in" 
+                className="primary-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contact SNTC
+              </a>
+              <a 
+                href="https://sntc.iitmandi.co.in/" 
+                className="secondary-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Join a Club
+              </a>
+              <a 
+                href="https://www.instagram.com/sntc_iitmandi/" 
+                className="secondary-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Follow on Instagram
+              </a>
             </div>
 
             <div className="additional-links">
@@ -362,6 +385,9 @@ const SysAdmins = () => {
                 </a>
                 <a href="https://sntc.iitmandi.co.in/projects.html" target="_blank" rel="noopener noreferrer">
                   SNTC Projects
+                </a>
+                <a href="https://www.linkedin.com/in/sntc-iit-mandi-340904255/" target="_blank" rel="noopener noreferrer">
+                  LinkedIn Profile
                 </a>
                 <a href="https://iitmandi.ac.in" target="_blank" rel="noopener noreferrer">
                   IIT Mandi Official

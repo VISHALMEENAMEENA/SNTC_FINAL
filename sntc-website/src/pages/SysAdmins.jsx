@@ -24,7 +24,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/aditya.jpeg"
+      image: "src/assets/images/Aditya.jpeg"
     },
     {
       name: "Aritra Boral",
@@ -35,7 +35,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/aritra.jpeg"
+      image: "src/assets/images/Aritra.jpeg"
     },
     {
       name: "Himadri Singh",
@@ -46,7 +46,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/himadri.jpeg"
+      image: "src/assets/images/Himadri.jpeg"
     },
     {
       name: "Vinamra Garg",
@@ -57,7 +57,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/vinamra.jpeg"
+      image: "src/assets/images/Vinamra.jpeg"
     },
     {
       name: "Anhad Thakral",
@@ -68,7 +68,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/anhad.jpeg"
+      image: "src/assets/images/Anhad.jpeg"
     },
     {
       name: "Shubham Padhi",
@@ -79,7 +79,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/shubhum.png"
+      image: "src/assets/images/Shubhum.png"
     },
     {
       name: "Diksha Sharma", 
@@ -90,7 +90,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn  
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/diksha.jpeg"
+      image: "src/assets/images/Diksha.jpeg"
     },
     {
       name: "Dhruv Verma",
@@ -101,7 +101,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/dhruv.jpeg"
+      image: "src/assets/images/Dhruv.jpeg"
     },
     {
       name: "Rohith Pranav",
@@ -112,7 +112,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/rohith.jpeg"
+      image: "src/assets/images/Rohith.jpeg"
     },
     {
       name: "Tharun Chanda",
@@ -123,7 +123,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/tharun.jpeg"
+      image: "src/assets/images/Tharun.jpeg"
     },
     {
       name: "Kusum Agrawal",
@@ -134,7 +134,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/kusum.jpeg"
+      image: "src/assets/images/Kusum.jpeg"
     },
     {
       name: "Manan",
@@ -145,7 +145,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/manan.jpeg"
+      image: "src/assets/images/Manan.jpeg"
     },
     {
       name: "Yogesh",
@@ -156,7 +156,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/yogesh.jpeg"
+      image: "src/assets/images/Yogesh.jpeg"
     },
     {
       name: "Ayush Sawarn",
@@ -167,7 +167,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/ayush.jpeg"
+      image: "src/assets/images/Ayush.jpeg"
     },
     {
       name: "R C Manish Reddy",
@@ -178,7 +178,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/RCmanish.jpeg"
+      image: "src/assets/images/RCManish.jpeg"
     },
     {
       name: "Mayank Goel",
@@ -189,7 +189,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/mayank.jpeg"
+      image: "src/assets/images/Mayank.jpeg"
     },
     {
       name: "Piyush Kumar",
@@ -200,7 +200,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/piyush.jpeg"
+      image: "src/assets/images/Piyush.jpeg"
     }
   ];
 

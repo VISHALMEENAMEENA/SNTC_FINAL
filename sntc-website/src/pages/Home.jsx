@@ -222,6 +222,22 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
+      <section style={{ padding: '1rem' }}>
+      <div style={{
+        border: '1px solid #ccc',
+        borderRadius: '8px',
+        padding: '1rem',
+        maxWidth: '300px',
+        backgroundColor: '#f9f9f9'
+      }}>
+        <h3>Explore Our Latest Offering</h3>
+        <p>Mars Rover Project - ₹2,01,000</p>
+        <Link to="/offering/1" style={{ color: '#1d4ed8', textDecoration: 'underline' }}>
+          View Details →
+        </Link>
+      </div>
+      </section>
 
       {/* Events Section */}
       <section className="events-section">

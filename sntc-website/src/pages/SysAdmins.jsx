@@ -2,7 +2,7 @@ import React from 'react';
 import './SysAdmins.css';
 
 const SysAdmins = () => {
-  // SNTC Core Team Members (Updated with actual data from research)
+  // SNTC Core Team Members (Updated with working image paths)
   const sntcCoreTeam = [
     {
       name: "Vaibhav Kesharwani", 
@@ -13,7 +13,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/born-engineer73/", // Confirmed LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/vaibhav.jpeg"
+      image: "/images/vaibhav.jpeg" // Changed to public folder path
     },
     {
       name: "Aditya Sahu",
@@ -24,7 +24,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Aditya.jpeg"
+      image: "/images/Aditya.jpeg"
     },
     {
       name: "Aritra Boral",
@@ -35,7 +35,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Aritra.jpeg"
+      image: "/images/Aritra.jpeg"
     },
     {
       name: "Himadri Singh",
@@ -46,7 +46,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Himadri.jpeg"
+      image: "/images/Himadri.jpeg"
     },
     {
       name: "Vinamra Garg",
@@ -57,7 +57,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Vinamra.jpeg"
+      image: "/images/Vinamra.jpeg"
     },
     {
       name: "Anhad Thakral",
@@ -68,7 +68,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Anhad.jpeg"
+      image: "/images/Anhad.jpeg"
     },
     {
       name: "Shubham Padhi",
@@ -79,7 +79,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Shubhum.png"
+      image: "/images/Shubhum.png"
     },
     {
       name: "Diksha Sharma", 
@@ -90,7 +90,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn  
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Diksha.jpeg"
+      image: "/images/Diksha.jpeg"
     },
     {
       name: "Dhruv Verma",
@@ -101,7 +101,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Dhruv.jpeg"
+      image: "/images/Dhruv.jpeg"
     },
     {
       name: "Rohith Pranav",
@@ -112,7 +112,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Rohith.jpeg"
+      image: "/images/Rohith.jpeg"
     },
     {
       name: "Tharun Chanda",
@@ -123,7 +123,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Tharun.jpeg"
+      image: "/images/Tharun.jpeg"
     },
     {
       name: "Kusum Agrawal",
@@ -134,7 +134,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Kusum.jpeg"
+      image: "/images/Kusum.jpeg"
     },
     {
       name: "Manan",
@@ -145,7 +145,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Manan.jpeg"
+      image: "/images/Manan.jpeg"
     },
     {
       name: "Yogesh",
@@ -156,7 +156,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Yogesh.jpeg"
+      image: "/images/Yogesh.jpeg"
     },
     {
       name: "Ayush Sawarn",
@@ -167,7 +167,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Ayush.jpeg"
+      image: "/images/Ayush.jpeg"
     },
     {
       name: "R C Manish Reddy",
@@ -178,7 +178,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/RCManish.jpeg"
+      image: "/images/RCManish.jpeg"
     },
     {
       name: "Mayank Goel",
@@ -189,7 +189,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Mayank.jpeg"
+      image: "/images/Mayank.jpeg"
     },
     {
       name: "Piyush Kumar",
@@ -200,7 +200,7 @@ const SysAdmins = () => {
       phone: "+91-XXXX-XXX-XXX",
       linkedin: "https://www.linkedin.com/in/sntc-iit-mandi-340904255/", // Official SNTC LinkedIn
       instagram: "https://www.instagram.com/sntc_iitmandi/", // Official SNTC Instagram
-      image: "src/assets/images/Piyush.jpeg"
+      image: "/images/Piyush.jpeg"
     }
   ];
 
@@ -218,6 +218,12 @@ const SysAdmins = () => {
       label: "Innovation"
     }
   ];
+
+  // Handle image loading errors with fallback
+  const handleImageError = (e) => {
+    e.target.style.display = 'none';
+    e.target.nextSibling.style.display = 'flex';
+  };
 
   return (
     <div className="sysadmins-container">
@@ -273,7 +279,17 @@ const SysAdmins = () => {
               <div key={index} className="team-card">
                 <div className="member-avatar">
                   {member.image ? (
-                    <img src={member.image} alt={member.name} className="member-image" />
+                    <>
+                      <img 
+                        src={member.image} 
+                        alt={member.name} 
+                        className="member-image"
+                        onError={handleImageError}
+                      />
+                      <div className="avatar-placeholder" style={{display: 'none'}}>
+                        {member.name.split(' ').map(n => n[0]).join('')}
+                      </div>
+                    </>
                   ) : (
                     <div className="avatar-placeholder">
                       {member.name.split(' ').map(n => n[0]).join('')}

@@ -308,10 +308,7 @@ const InterIIT = () => {
               Join our Inter-IIT preparation teams and get the opportunity to represent IIT Mandi at prestigious national-level competitions.
               We welcome enthusiastic students from all branches and years who are passionate about learning, teamwork, and achieving excellence.
             </p>
-            <div className="info-actions">
-              <button className="primary-btn">Join Team</button>
-              <button className="secondary-btn">Learn More</button>
-            </div>
+            
           </div>
         </div>
       </section>

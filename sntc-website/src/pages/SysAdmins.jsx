@@ -380,12 +380,8 @@ const SysAdmins = () => {
             <div className="additional-links">
               <h3>Official Links</h3>
               <div className="links-grid">
-                <a href="https://sntc.iitmandi.co.in/SnTC_core.html" target="_blank" rel="noopener noreferrer">
-                  SNTC Core Team
-                </a>
-                <a href="https://sntc.iitmandi.co.in/projects.html" target="_blank" rel="noopener noreferrer">
-                  SNTC Projects
-                </a>
+               
+                
                 <a href="https://www.linkedin.com/in/sntc-iit-mandi-340904255/" target="_blank" rel="noopener noreferrer">
                   LinkedIn Profile
                 </a>

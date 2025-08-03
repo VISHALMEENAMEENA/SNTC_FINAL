@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import ClubCard from '../components/ClubCard';
 import './Home.css';
 
@@ -62,6 +63,10 @@ const Home = () => {
     { title: 'Workshop Series', date: 'Apr 05', type: 'Learning' }
   ];
 
+  const handleSocialClick = (url) => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <div className={`home-page ${isVisible ? 'visible' : ''}`}>
       {/* Hero Section */}
@@ -72,6 +77,7 @@ const Home = () => {
               <div key={i} className={`particle particle-${i + 1}`}></div>
             ))}
           </div>
+          <div className="hero-grid-overlay"></div>
         </div>
         
         <div className="hero-content">
@@ -86,13 +92,19 @@ const Home = () => {
               fostering transformative advancements across countless fields.
             </p>
             <div className="hero-buttons">
-              <button className="cta-button primary">
-                <span>Explore Clubs</span>
-                <i className="fas fa-arrow-right"></i>
+              <button 
+                className="cta-button primary"
+                onClick={() => handleSocialClick('https://www.instagram.com/sntc_iitmandi/')}
+              >
+                <span>Follow Us</span>
+                <i className="fab fa-instagram"></i>
               </button>
-              <button className="cta-button secondary">
-                <span>Join Community</span>
-                <i className="fas fa-users"></i>
+              <button 
+                className="cta-button secondary"
+                onClick={() => handleSocialClick('https://in.linkedin.com/company/science-and-technology-council-iit-mandi')}
+              >
+                <span>Connect</span>
+                <i className="fab fa-linkedin"></i>
               </button>
             </div>
           </div>
@@ -159,10 +171,10 @@ const Home = () => {
           </div>
           
           <div className="section-footer">
-            <button className="view-all-btn">
+            <Link to="/clubs" className="view-all-btn">
               <span>View All Clubs</span>
               <i className="fas fa-arrow-right"></i>
-            </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -223,20 +235,34 @@ const Home = () => {
         </div>
       </section>
       
-      <section style={{ padding: '1rem' }}>
-      <div style={{
-        border: '1px solid #ccc',
-        borderRadius: '8px',
-        padding: '1rem',
-        maxWidth: '300px',
-        backgroundColor: '#f9f9f9'
-      }}>
-        <h3>Explore Our Latest Offering</h3>
-        <p>Mars Rover Project - ₹2,01,000</p>
-        <Link to="/offering/1" style={{ color: '#1d4ed8', textDecoration: 'underline' }}>
-          View Details →
-        </Link>
-      </div>
+      <section className="offerings-preview">
+          <div className="container">
+            <h2>What We Offer</h2>
+            <p>
+              The Science and Technology Council (SnTC) at IIT Mandi provides a wide range of opportunities to explore, learn, and innovate.
+              From student-led clubs and inter-IIT competitions to system administration and technical workshops, SnTC supports you throughout your technical journey.
+            </p>
+            <p>
+              Whether you're passionate about coding, robotics, astronomy, or anything in between — there's something here for you.
+            </p>
+            <Link to="/offerings" className="offerings-link">
+              <span>🌟 Explore Our Offerings</span>
+              <i className="fas fa-arrow-right"></i>
+            </Link>
+          </div>
+      </section>
+
+      <section className="home-offerings-section">
+        <div className="container">
+          <h2>Our Cells</h2>
+          <p>
+            Discover the wide range of technical opportunities at SnTC — including clubs, competitions, and innovation programs that help you grow and shine.
+          </p>
+          <Link to="/cell/1" className="cell-link">
+            <span>Learn More</span>
+            <i className="fas fa-arrow-right"></i>
+          </Link>
+        </div>
       </section>
 
       {/* Events Section */}
@@ -267,25 +293,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="cta-section">
-        <div className="container">
-          <div className="cta-content">
-            <h2>Ready to Innovate?</h2>
-            <p>Join our community of tech enthusiasts and be part of something extraordinary</p>
-            <div className="cta-buttons">
-              <button className="cta-button primary">
-                <span>Join SnTC</span>
-                <i className="fas fa-rocket"></i>
-              </button>
-              <button className="cta-button secondary">
-                <span>Contact Us</span>
-                <i className="fas fa-envelope"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 };

@@ -212,6 +212,7 @@ const Offerings = () => {
           </div>
         </div>
       </section>
+    
 
       {/* Projects Grid */}
       <section className="projects-section">

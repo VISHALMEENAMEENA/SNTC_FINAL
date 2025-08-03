@@ -276,34 +276,7 @@ const Clubs = () => {
         </div>
       </section>
 
-      {/* Join CTA Section */}
-      <section className="join-cta-section">
-        <div className="container">
-          <div className="cta-content">
-            <h2>Ready to Join a Club?</h2>
-            <p>
-              Take the first step towards your technical journey. Our clubs welcome 
-              enthusiastic students at any time during the academic year.
-            </p>
-            <div className="cta-buttons">
-              <button 
-                className="cta-button primary"
-                onClick={() => window.location.href = 'mailto:contact@sntc.iitmandi.co.in'}
-              >
-                <span>Contact Clubs</span>
-                <i className="fas fa-envelope"></i>
-              </button>
-              <button 
-                className="cta-button secondary"
-                onClick={() => window.open('https://sntc.iitmandi.co.in/clubs', '_blank', 'noopener noreferrer')}
-              >
-                <span>Learn More</span>
-                <i className="fas fa-info-circle"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 };
